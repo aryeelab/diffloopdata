@@ -8,3 +8,6 @@ Description: An small ChIA-PET example dataset for use with the diffloop package
 License: MIT + file LICENSE
 LazyData: TRUE
 biocViews: ExperimentData
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
