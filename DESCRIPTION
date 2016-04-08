@@ -1,13 +1,13 @@
 Package: diffloopdata
 Type: Package
 Title: Example ChIA-PET Data for the diffloop Package
-Version: 0.99.0
+Version: 0.99.1
 Date: 2016-03-24
 Authors@R: person("Martin", "Aryee", email = "aryee.martin@mgh.harvard.edu", role = c("aut", "cre"))
 Description: An small ChIA-PET example dataset for use with the diffloop package. Data from six samples, with interactions involving chromosome 1 are included.
 License: MIT + file LICENSE
 LazyData: TRUE
-biocViews: ExperimentData
+biocViews: ExperimentData, SequencingData
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
