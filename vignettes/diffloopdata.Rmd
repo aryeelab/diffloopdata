@@ -14,7 +14,13 @@ diffloop package.
 
 It contains chromosome 1 data from 6 ChIA-PET samples.$^{1,2}$ The raw FASTQ
 read files were preprocessed with the `dnaloop`
-(https://github.com/aryeelab/dnaloop) package. 
+(https://github.com/aryeelab/dnaloop) package. These six samples were ChIP'd
+against the SMC1 protein, a subunit of cohesin. Additionally, 5 samples 
+against the POL2 protein are included from the K562, MCF7, and HCT116
+cell lines. Processed RNA-Seq counts for the K562 and MCF7 cell lines
+are the last component of the package, which were aligned using 
+bowtie then mapped to Refseq hg19 genes using HT-Seq. These data
+were available through the ENCODE Project
 
 
 $^1$Hnisz, Denes, et al. "Activation of proto-oncogenes by disruption of
