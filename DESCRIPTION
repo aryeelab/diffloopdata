@@ -1,10 +1,15 @@
 Package: diffloopdata
 Type: Package
 Title: Example ChIA-PET Data for the diffloop Package
-Version: 0.99.1
+Version: 1.0.1
 Date: 2016-03-24
-Authors@R: c( person("Martin", "Aryee", email = "aryee.martin@mgh.harvard.edu", role = c("aut", "cre”)), person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = "aut”))
-Description: An small ChIA-PET example dataset for use with the diffloop package. Data from six samples, with interactions involving chromosome 1 are included.
+Authors@R: c(
+    person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = "aut"),
+    person("Martin", "Aryee", email = "aryee.martin@mgh.harvard.edu", role = c("aut", "cre"))
+    )
+Maintainer: Martin Aryee <aryee.martin@mgh.harvard.edu>
+Author: Caleb Lareau [aut], Martin Aryee [aut, cre]
+Description: ChIA-PET example datasets for use with the diffloop package.
 License: MIT + file LICENSE
 LazyData: TRUE
 biocViews: ExperimentData, SequencingData
