@@ -1,8 +1,8 @@
 Package: diffloopdata
 Type: Package
-Title: Example ChIA-PET Data for the diffloop Package
+Title: Example ChIA-PET Datasets for the diffloop Package
 Version: 1.0.1
-Date: 2016-03-24
+Date: 2016-08-14
 Authors@R: c(
     person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = "aut"),
     person("Martin", "Aryee", email = "aryee.martin@mgh.harvard.edu", role = c("aut", "cre"))
