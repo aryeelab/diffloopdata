@@ -7,9 +7,9 @@ Authors@R: c(
     person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = "aut"),
     person("Martin", "Aryee", email = "aryee.martin@mgh.harvard.edu", role = c("aut", "cre"))
     )
-Maintainer: Martin Aryee <aryee.martin@mgh.harvard.edu>
+Maintainer: Caleb Lareau <caleblareau@g.harvard.edu>
 Author: Caleb Lareau [aut], Martin Aryee [aut, cre]
-Description: ChIA-PET example datasets for use with the diffloop package.
+Description: ChIA-PET example datasets and additional data for use with the diffloop package.
 License: MIT + file LICENSE
 LazyData: TRUE
 biocViews: ExperimentData, SequencingData

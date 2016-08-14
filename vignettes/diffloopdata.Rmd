@@ -19,8 +19,10 @@ against the SMC1 protein, a subunit of cohesin. Additionally, 5 samples
 against the POL2 protein are included from the K562, MCF7, and HCT116
 cell lines. Processed RNA-Seq counts for the K562 and MCF7 cell lines
 are the last component of the package, which were aligned using 
-bowtie then mapped to Refseq hg19 genes using HT-Seq. These data
-were available through the ENCODE Project
+bowtie then mapped to Refseq hg19 genes using HT-Seq. Additional
+data to utilize the wealth of functions in diffloop include processed
+data from the 450k DNA methylation array, CNV regions, and H3K27ac
+peaks.These data were all available through the ENCODE Project.
 
 
 $^1$Hnisz, Denes, et al. "Activation of proto-oncogenes by disruption of
